@@ -1,4 +1,4 @@
-"""# 1) Reverse a String:
+# 1) Reverse a String:
 
 a=input("Enter :")
 print(a[::-1])
@@ -43,7 +43,13 @@ for i in a:
         cons=cons+1
 print("vowel :",vowel)
 print("Consonent :",cons)
+# 7) Find substring :
+a=input("Enter :")
 
+for i in range(len(a)+1):
+    for j in range(i+1,len(a)+1):
+        print(a[i:j])
+        
 # 6)FIND LONGEST WORD
 from collections import Counter
 a=input("Enter :")
@@ -85,7 +91,7 @@ b=''.join(sorted(b))
 if a==b:
     print("Anagram")
 else:
-    print("not")"""
+    print("not")
 
 
 

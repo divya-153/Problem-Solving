@@ -57,7 +57,7 @@ a=a.split()
 long=0
 
 for i in a:
-    if len(i)>long:
+    if len(i)>=long:
         long=len(i)
         word=i
 print(word)
